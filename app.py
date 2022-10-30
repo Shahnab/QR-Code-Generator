@@ -7,7 +7,7 @@ import qrcode
 st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dentsu-logo_black.svg/2560px-Dentsu-logo_black.svg.png', width=250)
 st.title("QR code Generator")
 st.caption ("Upload link | text to be encoded in image to generate QR-Code")
-text = st.text_input('Enter the Text')
+text = st.text_input('Enter the Text | Links')
 
 
 click = st.button("Generate")
